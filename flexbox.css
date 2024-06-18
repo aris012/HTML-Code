@@ -1,0 +1,13 @@
+.flex-container{
+    display: flex;
+    justify-content: space-around; /*Space items evenly*/
+    background-color: white;
+    padding: 10px;
+}
+
+.flex-item{
+    background-color: rgb(6, 66, 66);
+    color: white;
+    padding: 150px;
+    margin: 80px;
+}

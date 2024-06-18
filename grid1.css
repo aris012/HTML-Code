@@ -1,0 +1,33 @@
+.grid-container {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-template-columns: 200px 1fr; /* Sidebar 200px wide, main content takes up remaining space */
+    height: 100vh;
+  }
+  
+  .header {
+    grid-column: span 2; /* Header spans two columns */
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .sidebar {
+    background-color: #f1f1f1;
+    padding: 20px;
+  }
+  
+  .main-content {
+    background-color: #e0e0e0;
+    padding: 20px;
+  }
+  
+  .footer {
+    grid-column: span 2; /* Footer spans two columns */
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
